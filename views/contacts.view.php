@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Contact</h1>
+    <h1>Contacts</h1>
+    <ul>
+        <li>
+                <?php if ($task->is_completed ): ?>
+                <?php endif; ?>
+                
+                <?=$task->description;?>
+                
+                <?php if ($task->is_completed ): ?>
+                <?php endif; ?>
+        </li>
+    </ul>
 </body>
 </html>
