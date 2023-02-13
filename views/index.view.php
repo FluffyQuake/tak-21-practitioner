@@ -1,33 +1,5 @@
-    <nav>
-        <ul>
-            <li><a href="about">About us</a></li>
-            <li><a href="about/culture">About culture</a></li>
-            <li><a href="contacts">Contacts</a></li>
-        </ul>
-    </nav>
-    <h1>My tasks</h1>
-    <ul>
-        <?php foreach ($tasks as $task): ?>
-            <li>
+<?php require_once('partials/head.php'); ?>
 
-                <?php if ($task->is_completed ): ?>
-                    <strike>
-                <?php endif; ?>
-                
-                <?=$task->description;?>
-                
-                <?php if ($task->is_completed ): ?>
-                    </strike>
-                <?php endif; ?>
-
-            </li>    
-        <?php endforeach; ?>
-    </ul>
-
-<h2>Sisesta [lesanne</h2>
-<form method="POST" action="/task">
-    <input type="text" name="description">
-    <input type="submit" value="Salvesta">
-</form>
+<h1>Home</h1>
 
 <?php require_once('partials/footer.php'); ?>
