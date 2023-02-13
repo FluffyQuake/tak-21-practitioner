@@ -24,10 +24,10 @@
         <?php endforeach; ?>
     </ul>
 
-    <h2>Sisesta task</h2>
-    <form method="POST" action="/task">
-        <input type="text" name="task">
-        <input type="submit" value="Salvesta">
-    </form>
+<h2>Sisesta [lesanne</h2>
+<form method="POST" action="/task">
+    <input type="text" name="description">
+    <input type="submit" value="Salvesta">
+</form>
 
-    <?php require_once('partials/footer.php'); ?>
+<?php require_once('partials/footer.php'); ?>

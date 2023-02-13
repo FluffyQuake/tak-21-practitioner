@@ -1,3 +1,8 @@
 <?php
 
-var_dump($app['database'], $_POST['task']);
+$app['database']->insert('tasks',[
+    'desctription' => $_POST['description'],
+    // 'name' => $_POST['task']
+]);
+
+header('Location: /');
