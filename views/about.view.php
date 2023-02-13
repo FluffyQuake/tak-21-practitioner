@@ -1,5 +1,8 @@
+<html>
+    <body style="position: absolute; left:50%; transform:translate(-50%);">
+        <h1>About <?=$company;?></h1>
+    </body>
+</html>
+
 <?php require_once('partials/head.php'); ?>
-
-<h1>About <?=$company;?></h1>
-
 <?php require_once('partials/footer.php'); ?>

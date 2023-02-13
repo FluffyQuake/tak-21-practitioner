@@ -1,5 +1,8 @@
-<?php require_once('partials/head.php'); ?>
+<html>
+    <body style="position: absolute; left:50%; transform:translate(-50%);">
+        <h1>Home</h1>
+    </body>
+</html>
 
-<h1>Home</h1>
-
+<?php require_once('partials/head.php'); ?>    
 <?php require_once('partials/footer.php'); ?>

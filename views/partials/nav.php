@@ -1,5 +1,5 @@
 <nav>
-    <ul>
+    <ul style="display:flex; flex-direction:row; gap:20px; font-size: 20px;">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/about/culture">About culture</a></li>
