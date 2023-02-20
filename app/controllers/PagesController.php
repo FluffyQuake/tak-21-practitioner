@@ -12,7 +12,7 @@ class PagesController {
 
     public function about () {
 
-        return view('about', ['company' =>'Kuressaare Ametikool']);
+        return view('about', ['company' =>'Kure Kool']);
 
     }
 
