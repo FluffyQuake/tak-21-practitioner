@@ -5,5 +5,6 @@
         <li><a href="/about/culture">About culture</a></li>
         <li><a href="/contact">Contacts</a></li>
         <li><a href="/tasks">Tasks</a></li>
+        <li><a href="/posts">Posts</a></li>
     </ul>
 </nav>

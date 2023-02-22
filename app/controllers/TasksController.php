@@ -18,7 +18,7 @@ class TasksController {
 
         App::get('database')->insert('tasks',[
 
-            'desctription' => $_POST['description'],
+            'description' => $_POST['description'],
             
         ]);
 

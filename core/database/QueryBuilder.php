@@ -31,7 +31,7 @@ class QueryBuilder{
             $stmt = $this->pdo->prepare($sql);
             $stmt->execute($parameters);
         }catch( \Exception $e ) {
-            die('Ups midago kaitk');
+            die("Ups midago kaitk: {$e}");
         }
     }
 }

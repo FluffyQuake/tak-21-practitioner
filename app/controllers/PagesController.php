@@ -27,4 +27,8 @@ class PagesController {
         return view('aboutculture');
 
     }
+
+    public function posts () {
+        return view('posts');
+    }
 }
